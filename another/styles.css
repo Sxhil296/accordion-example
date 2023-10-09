@@ -1,0 +1,78 @@
+body {
+    background-color: #a88b8b; 
+  }
+  
+
+/* Style the questions section */
+.questions {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the title */
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .title h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Style the individual question container */
+  .section-center {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  /* Style the question text */
+  .question {
+    padding: 15px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+  
+  .question p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style the plus/minus buttons */
+  .plus-sign,
+  .minus-sign {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #666;
+    padding: 10px;
+  }
+  
+  /* Style the text content initially hidden */
+  .text {
+    display: none;
+    padding: 10px 15px;
+    background-color: #fff;
+  }
+  .minus-sign {
+    display: none;
+  }
+  
+  /* Style the plus/minus button when content is expanded */
+  .opened .plus-sign {
+    display: none;
+  }
+  
+  .opened .minus-sign {
+    display: inline-block;
+  }
+  
