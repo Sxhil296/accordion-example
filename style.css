@@ -1,0 +1,44 @@
+/* Styles for the accordion */
+.accordion {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.accordion-header {
+    padding: 10px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    position: relative; /* Added for positioning the button */
+   
+}
+
+.accordion-toggle {
+    position: absolute;
+   right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+}
+
+/* Style for the active header */
+.accordion-header.active {
+    background-color: #ddd; /* Change the background color for the active header */
+}
+
+/* Style for the active content */
+.accordion-content.active {
+    display: block; /* Display the content when active */
+}
