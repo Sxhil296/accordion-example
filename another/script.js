@@ -19,6 +19,8 @@
 // })
 //  });
 
+
+
 // corrected
 // Get all elements with class "plus-sign" and "minus-sign"
 const plusBtns = document.querySelectorAll(".plus-sign");
